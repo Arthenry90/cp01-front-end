@@ -1,0 +1,36 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(231, 50, 50);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.logo_principal {
+    width: 50px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.texto_intro{
+    margin: 20px;
+}
