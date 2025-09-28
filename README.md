@@ -8,6 +8,6 @@ Esse projeto faz parte de uma atividade avaliativa, e tem como objetivo o desenv
 
 - Artur Henrique Siqueira - RM566986
 - Davi de Souza Malta - RM560327
-- Guilherme
+- Guilherme de Oliveira Scremin - RM564788
 - Gabriel
 - Igor Gadote - RM567747
