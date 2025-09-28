@@ -1,11 +1,12 @@
 * {
-    color: white;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 html {
     background-color: black;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -14,11 +15,7 @@ header {
     padding: 10px 0;
 }
 
-nav {
-    text-align: center;
-}
-
-nav a {
+header nav a {
     color: black;
     margin: 0 15px;
     text-decoration: none;
@@ -31,6 +28,36 @@ nav a {
     vertical-align: middle;
 }
 
-.texto_intro{
+.navegacao_principal {
+    text-align: left;
     margin: 20px;
+}
+
+.navegacao_principal ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navegacao_principal li {
+    margin-bottom: 10px;
+}
+
+.navegacao_principal a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.texto_intro {
+    margin: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(50, 50, 50);
 }
