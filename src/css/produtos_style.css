@@ -1,3 +1,85 @@
-p {
-    background-color: rgb(180, 89, 89);
+html{
+    background-color: #D9C6B0;
 }
+p {
+       font-weight: 500;
+    background-color: #D9C6B0;
+    margin-top: 1.5rem;
+    padding-right: 20px;
+    padding-left: 50px;
+    color: #260401;
+}
+
+h1{
+    background-color: #D9C6B0; 
+
+    color: #260401;
+
+}
+Paragrafo1 {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+h3{
+    font-weight: 500;
+    background-color: #D9C6B0;
+    margin-top: 1.5rem;
+    padding-right: 20px;
+    padding-left: 50px;
+    color: #260401;
+}
+.produto {
+  display: flex;          /* Coloca imagem e texto lado a lado */
+  align-items: center;    /* Centraliza verticalmente */
+  gap: 20px;              /* Espaço entre a imagem e o texto */
+  margin-bottom: 30px;    /* Espaço entre os blocos de produto */
+  padding-left: 2rem;
+}
+
+.produto img {
+  max-width: 250px;       /* Ajusta o tamanho da imagem */
+  border-radius: 8px;     /* Bordas arredondadas, opcional */
+}
+
+.produto p {
+  max-width: 500px;       /* Limita largura do texto */
+  line-height: 1.5;       /* Melhora leitura */
+}
+
+.catalogo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* espaço entre os produtos */
+  margin: 40px auto;
+  max-width: 1000px; /* largura máxima da área */
+}
+
+.produto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f8f4ef;  /* fundo suave */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.produto img {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.descricao h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3e2723; /* tom de vinho */
+}
+
+.descricao p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #4e342e;
+}
+
