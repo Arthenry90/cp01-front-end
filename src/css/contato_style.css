@@ -2,7 +2,7 @@
 #Contato {
     margin: 0 auto;
     margin-top: 250px;
-    height: 320px;
+    height: 355px;
     width: 620px;
     text-align: left;
     background-color: #f8f4ef;
@@ -21,6 +21,16 @@
     width: 100px;
     color: #260401;
 }
+
+#Contato textarea{
+    text-align: left;
+    height: 35px;
+    width: 200px;
+    background-color: #3e2723;
+    border-radius: 5px;
+    resize: none;
+}
+
 .campoResposta {
     margin-top: 22px;
     text-align: left;
