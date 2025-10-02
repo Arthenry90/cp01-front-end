@@ -1,3 +1,72 @@
 p{
-    background-color: pink;
+    background-color: #D9C6B0;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, a, td, th {
+    color: #000;
+}
+
+.historia {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Card padrão */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Imagem lateral */
+.card img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Texto do card */
+.card-texto {
+    flex: 1;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-texto p {
+    margin-bottom: 12px;
+}
+
+/* Card só com imagem grande */
+.card img:only-child {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* ===== Estilo da tabela ===== */
+.timeline {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.timeline th,
+.timeline td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+.timeline th {
+    background-color: #5a2d2d; /* vinho escuro */
+    color: white;
+}
+
+.timeline tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
