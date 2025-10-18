@@ -1,0 +1,23 @@
+/* Efeitos pagina inicial */
+nav.navegacao_principal{
+    transition: all 0.3s ease;
+
+}
+
+/* nav.navegacao_principal:hover{
+    transform: translateX(50px);
+
+} */
+
+.navegacao_principal a {
+    transition: all 0.3s ease;
+
+}
+.navegacao_principal a:hover {
+    transform: translateX(50px);
+    background-color: lightcoral;
+}
+
+.caixa_branca:hover{
+    transform: scale(1.02);
+}
