@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/* Efeitos pagina de Contato */
 #Contato textarea:focus {
     background-color: #1d1210;
     transition: all 0.5s;
@@ -9,14 +9,15 @@
     transition: all 0.5s;
 }
 
-#Contato button.botao:hover{
+
+#Contato button.botao:hover {
     background-color: #1d1210;
     transition: all 0.7s;
 }
 
 
 /* Efeitos pagina inicial */
-nav.navegacao_principal{
+nav.navegacao_principal {
     transition: all 0.3s ease;
 
 }
@@ -38,4 +39,4 @@ nav.navegacao_principal{
 .caixa_branca:hover{
     transform: scale(1.02);
 }
->>>>>>> 4a1c33648f2982247687c051c4aa77b50b0050bb
+
