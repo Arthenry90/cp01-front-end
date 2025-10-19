@@ -1,4 +1,9 @@
 /* Efeitos pagina de Contato */
+#Contato:hover {
+    transform: scale(1.02);
+}
+
+
 #Contato textarea:focus {
     background-color: #1d1210;
     transition: all 0.5s;
@@ -31,6 +36,7 @@ nav.navegacao_principal {
     transition: all 0.3s ease;
 
 }
+
 .navegacao_principal a:hover {
     transform: translateX(50px);
     background-color: lightcoral;
