@@ -1,0 +1,15 @@
+#Contato textarea:focus {
+    background-color: #1d1210;
+    transition: all 0.5s;
+}
+
+.campoResposta:focus {
+    background-color: #1d1210;
+    transition: all 0.5s;
+}
+
+#Contato button.botao:hover{
+    background-color: #1d1210;
+    transition: all 0.7s;
+}
+
