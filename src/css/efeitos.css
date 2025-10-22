@@ -46,3 +46,7 @@ nav.navegacao_principal {
     transform: scale(1.02);
 }
 
+::selection {
+    color: white;
+    background-color: black;
+}
