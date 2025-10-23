@@ -29,7 +29,6 @@ cp02-front-end/
 │   │   ├── produtos_style.css
 │   │   ├── sobre_style.css
 │   │   └── style.css
-│   │   └── efeitos.css
 │   └── pages/ 
 │       ├── contato.html
 │       ├── historia.html
@@ -82,6 +81,10 @@ A seguir, estão descritas as **pseudo-classes**, **pseudo-elementos** e **anima
   Altera o comportamento padrão da seleção de texto: o texto selecionado fica **branco com fundo preto**, criando uma identidade visual própria e consistente com o tema do site.
 
 ---
+- **`::first-letter`**  
+  Altera o comportamento padrão da seleção de texto: o texto selecionado fica **branco com fundo preto**, criando uma identidade visual própria e consistente com o tema do site.
+
+---
 
 ### 🔹 Pseudo-classes
 
@@ -102,6 +105,11 @@ A seguir, estão descritas as **pseudo-classes**, **pseudo-elementos** e **anima
   - `#Contato textarea`
   - `.campoResposta`  
   Para alterar a cor de fundo e sinalizar que o campo está ativo.
+
+- **`:nth-child(odd)`**  
+  É utilizada na página principal para mudar a fonte dos elementos pares do menu de navegação principal.
+  Foi usada em:
+  - `.navegacao_lista li`
 
 ---
 
