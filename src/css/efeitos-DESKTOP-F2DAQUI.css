@@ -1,7 +1,6 @@
 /* Efeitos pagina de Contato */
 #Contato:hover {
     transform: scale(1.02);
-    transition: all 0.5s;
 }
 
 
@@ -13,7 +12,6 @@
 .campoResposta:focus {
     background-color: #1d1210;
     transition: all 0.5s;
-    color: white;
 }
 
 
@@ -29,16 +27,12 @@ nav.navegacao_principal {
 
 }
 
-/* nav.navegacao_principal:hover{
-    transform: translateX(50px);
-
-} */
-
 .navegacao_principal a {
     transition: all 0.3s ease;
 
 }
 
+/* Efeitos para mudar coloracao do selection e fazer a logo girar, também adiciona efeitos nos produtos */
 .navegacao_principal a:hover {
     transform: translateX(50px);
     background-color: lightcoral;
@@ -48,3 +42,36 @@ nav.navegacao_principal {
     transform: scale(1.02);
 }
 
+::selection {
+    color: white;
+    background-color: black;
+}
+
+.produto img {
+  transition: transform 0.4s ease; 
+  cursor: pointer; 
+  border-radius: 8px; 
+}
+
+.produto img:hover {
+  transform: scale(1.1); 
+}
+.descricao:hover{
+    transform:scale(1.1);
+
+}
+
+.spinning {
+      animation: spin 3s linear infinite;
+    }
+
+@keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+/* Mude aqui igor*/
