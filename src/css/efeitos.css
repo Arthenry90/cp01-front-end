@@ -50,3 +50,17 @@ nav.navegacao_principal {
     color: white;
     background-color: black;
 }
+
+.produto img {
+  transition: transform 0.4s ease; 
+  cursor: pointer; 
+  border-radius: 8px; 
+}
+
+.produto img:hover {
+  transform: scale(1.1); 
+}
+.descricao:hover{
+    transform:scale(1.1);
+
+}
