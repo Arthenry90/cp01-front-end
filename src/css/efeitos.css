@@ -32,7 +32,7 @@ nav.navegacao_principal {
 
 }
 
-/* Efeitos para mudar coloracao do selection e fazer a logo girar */
+/* Efeitos para mudar coloracao do selection e fazer a logo girar, também adiciona efeitos nos produtos */
 .navegacao_principal a:hover {
     transform: translateX(50px);
     background-color: lightcoral;
@@ -73,3 +73,5 @@ nav.navegacao_principal {
         transform: rotate(360deg);
       }
     }
+
+/* Mude aqui igor*/
