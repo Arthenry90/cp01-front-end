@@ -1,4 +1,4 @@
-# Projeto CP1 Front-End - Vinharia Agnello
+# Projeto CP2 Front-End - Vinharia Agnello
 
 ## Descricao do projeto
 
@@ -15,7 +15,7 @@ Esse projeto faz parte de uma atividade avaliativa, e tem como objetivo o desenv
 ## Estrutura de pastas
 
 ```bash
-cp01-front-end/
+cp02-front-end/
 │
 ├── index.html
 ├── README.md
@@ -79,6 +79,28 @@ A seguir, estão descritas as **pseudo-classes**, **pseudo-elementos** e **anima
 
 - **`::selection`**  
   Altera o comportamento padrão da seleção de texto: o texto selecionado fica **branco com fundo preto**, criando uma identidade visual própria e consistente com o tema do site.
+
+---
+
+### 🔹 Pseudo-classes
+
+- **`:hover`**  
+  É ativada quando o usuário passa o cursor do mouse sobre um elemento.  
+  Foi aplicada em diversos componentes, como:
+  - `#Contato`
+  - `.navegacao_principal a`
+  - `.caixa_branca`
+  - `.produto img`
+  - `.descricao`
+  - `button.botao`  
+  Criando efeitos de destaque, aumento e alteração de cor.
+
+- **`:focus`**  
+  É ativada quando um elemento recebe foco, geralmente ao clicar ou digitar em campos de formulário.  
+  Foi usada em:
+  - `#Contato textarea`
+  - `.campoResposta`  
+  Para alterar a cor de fundo e sinalizar que o campo está ativo.
 
 ---
 
