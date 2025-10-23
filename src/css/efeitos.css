@@ -48,3 +48,97 @@ nav.navegacao_principal {
     transform: scale(1.02);
 }
 
+::selection {
+    color: white;
+    background-color: black;
+}
+
+.produto img {
+  transition: transform 0.4s ease; 
+  cursor: pointer; 
+  border-radius: 8px; 
+}
+
+.produto img:hover {
+  transform: scale(1.1); 
+}
+.descricao:hover{
+    transform:scale(1.1);
+
+}
+
+.spinning {
+      animation: spin 3s linear infinite;
+    }
+
+@keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+/* PSEUDO-CLASSES */
+
+/* Hover e foco em links */
+a:hover {
+    color: #8b0000;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid #8b0000;
+}
+
+/* Efeito nos cards quando o mouse passa */
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* PSEUDO-ELEMENTOS */
+
+/* Linha decorativa antes dos títulos */
+h1::before, h2::before {
+    content: "🍷 ";
+}
+
+/* Estilo para a primeira letra de cada parágrafo */
+p::first-letter {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #5a2d2d;
+}
+
+/* ANIMAÇÃO COM @keyframes */
+
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Faz o logo girar continuamente */
+.spinning {
+    animation: girar 6s linear infinite;
+}
+
+/* TRANSIÇÕES */
+
+button, a, img {
+    transition: all 0.3s ease;
+}
+
+/* TRANSFORMAÇÕES */
+
+/* Aumenta imagens ao passar o mouse */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Leve rotação no título principal */
+h1:hover {
+    transform: rotate(-1deg);
+}
+
