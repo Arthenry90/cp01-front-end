@@ -29,6 +29,7 @@ cp02-front-end/
 │   │   ├── produtos_style.css
 │   │   ├── sobre_style.css
 │   │   └── style.css
+│   │   └── efeitos.css
 │   └── pages/ 
 │       ├── contato.html
 │       ├── historia.html

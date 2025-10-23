@@ -142,3 +142,6 @@ h1:hover {
     transform: rotate(-1deg);
 }
 
+.navegacao_lista li:nth-child(odd){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
