@@ -40,38 +40,12 @@ Na pasta pages estão armazenadas todas as páginas do site, exceto a página in
 
 ## Links
 
-Pages: https://arthenry90.github.io/cp01-front-end/
+Pages: https://arthenry90.github.io/cp02-front-end/
 
 ## Efeitos Visuais
 
 Esta seção define os **efeitos de transição, animação e interação visual** aplicados em diferentes elementos da página, com o objetivo de tornar a navegação mais fluida e dinâmica.  
 A seguir, estão descritas as **pseudo-classes**, **pseudo-elementos** e **animações** utilizados:
-
----
-
-### 🔹 Página de Contato
-
-- **`#Contato:hover`**  
-  Ao passar o mouse sobre a seção de contato, o elemento aumenta levemente de tamanho (`scale(1.02)`), criando um efeito de destaque.
-
-- **`#Contato textarea:focus`** e **`.campoResposta:focus`**  
-  Quando o usuário clica ou digita em um campo de texto, o fundo muda para um tom mais escuro (`#1d1210`), com uma transição suave de **0.5s**, indicando foco ativo.
-
-- **`#Contato button.botao:hover`**  
-  O botão muda de cor ao passar o mouse, aplicando a mesma tonalidade escura (`#1d1210`) com uma transição de **0.7s**, transmitindo uma sensação de clique suave.
-
----
-
-### 🔹 Página Inicial
-
-- **`nav.navegacao_principal`** e **`.navegacao_principal a`**  
-  Ambos possuem uma **transição suave de 0.3s** para todas as propriedades, garantindo que qualquer mudança de estado (como hover) ocorra de forma fluida.
-
-- **`.navegacao_principal a:hover`**  
-  Os links da navegação se deslocam horizontalmente (`translateX(50px)`) e mudam o fundo para **lightcoral**, gerando um destaque visual que indica interatividade.
-
-- **`.caixa_branca:hover`**  
-  Aumenta levemente de tamanho (`scale(1.02)`), criando um efeito de realce em caixas ou seções principais.
 
 ---
 
@@ -82,7 +56,7 @@ A seguir, estão descritas as **pseudo-classes**, **pseudo-elementos** e **anima
 
 ---
 - **`::first-letter`**  
-  Altera o comportamento padrão da seleção de texto: o texto selecionado fica **branco com fundo preto**, criando uma identidade visual própria e consistente com o tema do site.
+  Adiciona estilização única na primeira letra de determinado texto.
 
 ---
 
@@ -110,17 +84,6 @@ A seguir, estão descritas as **pseudo-classes**, **pseudo-elementos** e **anima
   É utilizada na página principal para mudar a fonte dos elementos pares do menu de navegação principal.
   Foi usada em:
   - `.navegacao_lista li`
-
----
-
-### 🔹 Produtos e Imagens
-
-- **`.produto img`**  
-  As imagens possuem **transição de 0.4s** e **cursor interativo**.  
-  No hover, são ampliadas (`scale(1.1)`), simulando um efeito de zoom e atraindo a atenção do usuário.
-
-- **`.descricao:hover`**  
-  Aumenta de tamanho (`scale(1.1)`), destacando descrições ou textos relacionados a produtos.
 
 ---
 
